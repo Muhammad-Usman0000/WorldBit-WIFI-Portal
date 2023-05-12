@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+/* ... start first layout ... */
+.tempContainer{
+/* position: relative; */
+/* z-index: 3; */
+}
+.tempContainer2{
+  /* position: absolute; */
+/* z-index: 6; */
+margin-top: -17rem;
+box-shadow: 0px 1px 20px 3px rgb(45, 45, 190);
+}
+.halfBgColor{
+  background-color: #3A399F;
+  width: 100%;
+  height: 20rem;
+  border-bottom-right-radius: 27rem;
+  border-top-left-radius: 20rem;
+}
+
+.custom-shape-divider-bottom-1678782935 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1678782935 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 209px;
+}
+
+.custom-shape-divider-bottom-1678782935 .shape-fill {
+  fill: #FFFFFF;
+}
+
+
+
+
+/* ... end first layout ... */
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #444141;
+  margin-top: 2rem;
+}
+.cardImage{
+  height: 17rem;
+}
+
+/* ................Images Section ......... */
+
+.loadMoreBtn{
+  margin-top: 7rem !important;
+}
+.leftHeading{
+  color: #3A399F;
+  font-size: 4rem;
+}
+.wifiPortalHeading{
+  font-size: 4.5rem;
+}
+
+
+/* ................................. */
+
+.inputInner{
+  width: 30rem;
+  font-size: 1.5rem;
+  /* border: 3px solid #40AAFF ; */
+
+} 
+.sendCodeBtn{
+  width: 30rem ;
+  /* font-size: 1.2rem; */
+
+}
+.freePaypal{
+  /* font-size: 1.3rem; */
+}
+/* ................................. */
+.mainQrCode{
+  background-color: #3A399F;
+  padding: 3rem 0rem 5rem 0rem;
+  border-radius: 2rem;
+  
+}
+.qrCodeImg{
+  border-radius: 2rem;
+  margin-top: 7rem !important;
+  width: 20rem;
+
+}
+.paymentCode{
+  margin-top: 1px;
+}
+/* ................................. */
+
+.forBottomPadding{
+  padding-bottom: 10rem;
+}
+

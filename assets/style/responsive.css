@@ -1,0 +1,55 @@
+/* ............................ START MEDIA QUERY ..........................  */
+/* ........................... MEDIA QUERY FOR MOBILE .............................. */
+
+@media only screen and (max-width: 767px){
+    .halfBgColor {
+   
+        height: 7rem;
+    }
+    .inputInner {
+        width: 19rem;
+       
+    }
+    
+    .sendCodeBtn {
+        width: 19rem;
+    }
+    .freePaypal {
+        margin-top: 1rem;
+    }    
+
+    .qrCodeImg {
+        margin-top: 2rem !important;
+        width: 11rem;
+    }
+    .leftHeading {
+        font-size: 2rem;
+    }
+    .wifiPortalHeading {
+        font-size: 2.5rem;
+    }
+
+
+}
+
+/* ...................... CLOSE MOBILE MEDIA QUERY ........................... */
+
+/* ...................... START TAB MEDIA QUERY ................................... */
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+    .halfBgColor {
+       
+        border-bottom-right-radius: 61rem;
+
+    }
+    .qrCodeImg {
+        margin-top: 4rem !important;
+        width: 16rem;
+    }
+    .qrCodeImg {
+    
+        margin-top: 8rem !important;
+        width: 17rem;
+    }
+}
